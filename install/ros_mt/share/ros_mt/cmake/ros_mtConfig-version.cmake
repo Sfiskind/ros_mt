@@ -1,0 +1,1 @@
+/home/nik/prj/src/ros_mt/build/ros_mt/ament_cmake_core/ros_mtConfig-version.cmake

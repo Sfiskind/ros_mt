@@ -1,0 +1,95 @@
+[0.010s] Invoking command in '/home/nik/prj/src/ros_mt/build/ros_mt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nik/prj/src/ros_mt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nik/prj/src/ros_mt/install/ros_mt
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.195s] -- The CXX compiler identification is GNU 13.3.0
+[0.215s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.447s] -- Detecting CXX compile features
+[0.447s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.613s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.750s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.883s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.883s] -- Configured cppcheck include dirs: 
+[0.883s] -- Configured cppcheck exclude dirs and/or files: 
+[0.895s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.895s] -- Configured cpplint exclude dirs and/or files: 
+[0.898s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.898s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.901s] -- Added test 'lint_cmake' to check CMake code style
+[0.904s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.918s] -- Added test 'uncrustify' to check C / C++ code style
+[0.918s] -- Configured uncrustify additional arguments: 
+[0.920s] -- Added test 'xmllint' to check XML markup files
+[0.923s] -- Configuring done (0.9s)
+[0.927s] -- Generating done (0.0s)
+[0.928s] -- Build files have been written to: /home/nik/prj/src/ros_mt/build/ros_mt
+[0.933s] Invoked command in '/home/nik/prj/src/ros_mt/build/ros_mt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nik/prj/src/ros_mt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nik/prj/src/ros_mt/install/ros_mt
+[0.934s] Invoking command in '/home/nik/prj/src/ros_mt/build/ros_mt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nik/prj/src/ros_mt/build/ros_mt -- -j16 -l16
+[0.979s] Invoked command in '/home/nik/prj/src/ros_mt/build/ros_mt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nik/prj/src/ros_mt/build/ros_mt -- -j16 -l16
+[0.990s] Invoking command in '/home/nik/prj/src/ros_mt/build/ros_mt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nik/prj/src/ros_mt/build/ros_mt
+[0.999s] -- Install configuration: ""
+[0.999s] -- Execute custom install script
+[1.000s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/config/config/controllers.yaml
+[1.011s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/config/gz_bridge.yaml.yaml
+[1.021s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/config/robot.rviz
+[1.032s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/description/gazebo_control.xacro
+[1.042s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/description/robot.urdf.xacro
+[1.053s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/description/robot_model.xacro
+[1.065s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[1.065s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[1.065s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[1.065s]   Use the cmake_policy command to set the policy and suppress this warning.
+[1.065s] Call Stack (most recent call first):
+[1.065s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[1.065s]   cmake_install.cmake:46 (include)
+[1.065s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.065s] [0m
+[1.065s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/build/.built_by
+[1.076s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/build/COLCON_IGNORE
+[1.087s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/.colcon_install_layout
+[1.097s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/COLCON_IGNORE
+[1.108s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/_local_setup_util_ps1.py
+[1.118s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/_local_setup_util_sh.py
+[1.129s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/local_setup.bash
+[1.139s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/local_setup.ps1
+[1.150s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/local_setup.sh
+[1.160s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/local_setup.zsh
+[1.171s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/setup.bash
+[1.181s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/setup.ps1
+[1.192s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/setup.sh
+[1.202s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/install/setup.zsh
+[1.213s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/launch_sim
+[1.223s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/launch_sim.launch.py
+[1.234s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/log/COLCON_IGNORE
+[1.244s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-25-50/events.log
+[1.255s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-25-50/logger_all.log
+[1.266s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-26-50/events.log
+[1.276s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/log/build_2025-02-04_14-26-50/logger_all.log
+[1.287s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/log/latest_build/events.log
+[1.297s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/log/latest_build/logger_all.log
+[1.308s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/launch/rsp.launch.py
+[1.319s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/worlds/empty.world
+[1.330s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ament_index/resource_index/package_run_dependencies/ros_mt
+[1.340s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ament_index/resource_index/parent_prefix_path/ros_mt
+[1.351s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/environment/ament_prefix_path.sh
+[1.361s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/environment/ament_prefix_path.dsv
+[1.372s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/environment/path.sh
+[1.383s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/environment/path.dsv
+[1.393s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/local_setup.bash
+[1.404s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/local_setup.sh
+[1.415s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/local_setup.zsh
+[1.425s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/local_setup.dsv
+[1.435s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/package.dsv
+[1.446s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ament_index/resource_index/packages/ros_mt
+[1.457s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/cmake/ros_mtConfig.cmake
+[1.467s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/cmake/ros_mtConfig-version.cmake
+[1.478s] -- Symlinking: /home/nik/prj/src/ros_mt/install/ros_mt/share/ros_mt/package.xml
+[1.491s] Invoked command in '/home/nik/prj/src/ros_mt/build/ros_mt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nik/prj/src/ros_mt/build/ros_mt

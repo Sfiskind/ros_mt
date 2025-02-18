@@ -1,0 +1,1 @@
+/home/nik/prj/src/ros_mt/launch/install/_local_setup_util_ps1.py

@@ -1,0 +1,1 @@
+/home/nik/prj/src/ros_mt/build/ros_mt/ament_cmake_environment_hooks/local_setup.zsh
